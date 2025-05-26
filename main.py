@@ -13,7 +13,7 @@ def root():
       <input type="submit" value="QR-code"/>
    </form>'''
 
-
+#jhgv
 @app.route("/qr")
 def qr():
    msg = request.args.get('msg')
